@@ -1,50 +1,154 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
-nav{
-    position: fixed;
-    width: 100%;
-    height: 69px;
-    background-color: black;
-    padding: 10px 50px 0 50px;
+nav {
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  padding: 10px 50px 0 50px;
 }
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo-text a{
-    color: white;
-    text-decoration: none;
-    font-size: 33px;
-    font-weight: 600;
+.logo-text a {
+  color: white;
+  text-decoration: none;
+  font-size: 33px;
+  font-weight: 600;
 }
 .nav-link ul {
-    list-style:none;
+  list-style: none;
 }
-.nav-link ul li{
-    float: left;
-    margin: 0 20px;
+.nav-link ul li {
+  float: left;
+  margin: 0 20px;
 }
-.nav-link ul li a{
-    text-decoration: none;
-    color: white;
-    padding-bottom: 10px;
+.nav-link ul li a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
 }
-.nav-link ul li a:hover{
-    border-bottom: 1px solid white;
+.nav-link ul li a:hover {
+  border-bottom: 1px solid white;
 }
 .nav-link ul li select {
-    background-color: black;
-    border: none;
-    color: white;
-    font-size: 16px; 
-    
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 16px;
 }
-.nav-link ul li select:hover{
-    text-decoration: 1px underline white;
+.my-hero-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("my-hero-img.png");
+  padding-top: 69px;
+  width: 100%;
+  height: 679px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 3px 2px 3px black;
+  color: white;
+}
+.hero-img h1 {
+  font-size: 50px;
+  word-spacing: 3px;
+}
+.hero-img p {
+  position: absolute;
+  margin-top: 90px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.main-about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 679px;
+  padding: 0 60px;
+  box-shadow: 1px 1px 3px black;
+  background-color: rgb(224, 218, 218);
+}
+.about-col-1 {
+  width: 50%;
+  height: 564px;
+  background-color: white;
+  padding: 42px;
+}
+.about-row-1{
+  display: flex;
+  align-items:center;
+}
+.about-row-1 img{
+  height: 150px;
+  box-shadow:1px 1px 3px black;
+  border-radius: 5px;
+} 
+.row-1-emp-data{
+  margin-left: 30px;
+  width: 290px;
+} 
+.row-1-emp-data p {
+  line-height: 2.5;
+}
+.row-1-emp-data p b{
+  font-size: 16px;  
+  margin-left: 2px;
+}
+.about-row-2 {
+  padding-top: 23px;
+  line-height: 2.5;
+}
+.skill p{
+  font-size: 16px;
+  font-weight: 400;
+
+}
+.myProgress{
+  background-color: rgba(135, 182, 253, 0.384);
+  width: 100%;
+  height: 18px;
+}
+.myhtml{
+  background-color: blue;
+  width: 85%;
+  height: 18px;
+}
+.mycss{
+  background-color: blue;
+  width: 75%;
+  height: 18px;
+}
+.myphp{
+  background-color: blue;
+  width: 50%;
+  height: 18px;
+}
+.myjs{
+  background-color: blue;
+  width: 90%;
+  height: 18px;
+}
+.about-col-2 {
+  width: 50%;
+  height: 564px;
+  background-color: white;
+  padding: 42px;
+}
+.about-col-2 h1{
+  /* display: inline; */
+  margin-bottom: 30px;
+  padding-bottom: 3px;
+  border-bottom: 2px solid blue;
+}
+.about-col-2 p{
+  line-height: 1.7;
 }
